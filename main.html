@@ -15,11 +15,12 @@
     <form method="post" action="/submit-signup">
         
         <!-- Name -->
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Name" required>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" 
+			placeholder="Name" min="3" max="50" required>
         <br><br>
         <!--Portfolio-->
-		<label for="portfolio">Portfolio:</label>
+		<label for="portfolio">Portfolio</label>
         <input type="url" id="portfolio" name="portfolio" 
 			placeholder="portfolio" required>
         <br><br>
@@ -31,7 +32,7 @@
         <br><br>
 		<!--Likeness-->
 		<!-- Likeness field -->
-        <label for="likeness">Likeness (1-100):</label>
+        <label for="likeness">Likeness</label>
         <input type="range" id="likeness" name="likeness" min="1" max="100">
         <br><br>
 
